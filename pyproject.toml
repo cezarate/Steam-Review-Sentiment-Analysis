@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "steamreview"
+version = "0.1.0"
+description = ""
+authors = ["cezarate <carlocezarate@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.7.0"
+pydantic-settings = "^2.2.1"
+numpy = "^1.26.4"
+scikit-learn = "^1.4.2"
+joblib = "^1.4.0"
+requests = "^2.31.0"
+matplotlib = "^3.8.4"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
