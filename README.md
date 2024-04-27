@@ -14,13 +14,13 @@ Hello! This is a simple sentiment analysis project that uses steam reviews as a 
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/cezarate/Steam-Review-Sentiment-Analysis.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd Steam-Review-Sentiment-Analysis
 ```
 
 Install dependencies
@@ -29,9 +29,12 @@ Install dependencies
   poetry init
 ```
 
+Add the necessary environment variables (see Environment Variables section)
+
 Start the server
 
 ```bash
+  poetry shell
   python -m analytics
 ```
 
@@ -57,7 +60,7 @@ To run this project, you will need to add the following environment variables to
     NAIVE_BAYES_FILENAME
     RANDOM_FOREST_FILENAME
     SVM_FILENAME
-    N_GRAMS
+    N_GRAMS=2
 
 
 ## 🚀 About Me
