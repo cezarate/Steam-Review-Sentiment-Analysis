@@ -5,10 +5,10 @@ Hello! This is a simple sentiment analysis project that uses steam reviews as a 
 
     - Logistic Regression
     - Naive Bayes
-    - Support Vector Machines[^1]
-    - Random Forest[^1]
+    - Support Vector Machines<sup>1</sup>
+    - Random Forest<sup>1</sup>
 
-[^1]: Takes too long to train. 
+<sup>1</sup>Takes too long to train. 
 ## Run Locally
 
 Clone the project
@@ -31,7 +31,7 @@ Install dependencies
 
 Add the necessary environment variables (see Environment Variables section)
 
-Start the server
+Start
 
 ```bash
   poetry shell
